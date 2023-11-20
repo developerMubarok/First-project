@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> pitha form </title>
+    <link rel="stylesheet" href="CSS/Nav.css">
+   <style>
+       label{
+        display: block;
+        margin-bottom: 10px;
+       }
+   </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="table.html"> Table </a></li>
+                <li><a href="form.html"> Form </a></li>
+                <li><a href="semantic.html">Semantic</a></li>
+                <li><a href="Audio video .html">Media</a></li>
+            </ul>
+        </nav>
+    </header>
+    <h2> Welcome to jamal er ma pitha Ghor</h2>
+    <form action="">
+        <label for="Name"> Your Name 
+            <input id="Name" type="text" placeholder="Your Name">
+        </label>
+        <label for="Email"> Your Email 
+            <input id="Email" type="email" placeholder="Your Email">
+        </label>
+        <label for="Phone"> Your Number 
+            <input id="Phone" type="number" placeholder="Your Number">
+        </label>
+        <fieldset>
+            <legend>Pick one pitha</legend>
+            <label for="Chitoy">
+                <input type="radio" name="Pitha" id="Chitoy">
+                Chitoy
+            </label>
+            <label for="Vapa">
+                <input type="radio" name="Pitha" id="Vapa">
+                Vapa
+            </label>
+            <label for="Coconut">
+                <input type="radio" name="Pitha" id="Coconut">
+                Coconut
+            </label>          
+        </fieldset>
+        <fieldset>
+            <legend> Select one more vortas</legend>
+            <label for="sorisa">
+                <input type="checkbox" name="Vortas" id="sorisa">
+                Sorosa
+            </label>
+            <label for="Shutki">
+                <input type="checkbox" name="Vortas" id="shutki">
+                Shutki
+            </label>
+            <label for="dal">
+                <input type="checkbox" name="Vortas" id="dal">
+                Dal
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>Sepcial Instrucation</legend>
+            <textarea name="" id="" cols="60" rows="3"></textarea>
+        </fieldset>
+        <input type="reset" value="Reset">
+        <input type="submit" value="Submit">
+        
+    </form>
+</body>
+</html>
